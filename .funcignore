@@ -1,0 +1,5 @@
+# List the folders and files that you don't want to send to AML. 
+
+.vscode
+
+.venv

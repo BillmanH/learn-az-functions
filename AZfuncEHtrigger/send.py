@@ -3,12 +3,16 @@ import yaml
 from azure.eventhub.aio import EventHubProducerClient
 from azure.eventhub import EventData
 
-params = yaml.safe_load(open('function.json'))
+# edited this so that I can pull in the same values from the bindings witout having to create a special yaml file
+params = yaml.safe_load(open('function.json'))['bindings'][0]
+
+
 async def run():
     # Create a producer client to send messages to the event hub.
     # Specify a connection string to your event hubs namespace and
     # the event hub name.
-    producer = EventHubProducerClient.from_connection_string(conn_str=params["EVENT_HUBS_NAMESPACE_CONNECTION_STRING"], eventhub_name=params["EVENTHUB_NAME"])
+    producer = EventHubProducerClient.from_connection_string(
+        conn_str=params["connection"], eventhub_name=params["eventHubName"])
     async with producer:
         # Create a batch.
         event_data_batch = await producer.create_batch()

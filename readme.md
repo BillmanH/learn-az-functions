@@ -13,7 +13,7 @@ Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azu
 ## You need to add:
 * `local.settings.json` - [which you can get here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local#local-settings-file)
 * `function.json` - for each app, there are specific function parameters that are omited from the code here. You'll need to create that file. 
-
+* to build an environment you can use the `requirements.txt`. That has everything for the trigger-simulators as well as the functions. 
 
 
 #### Project Structure

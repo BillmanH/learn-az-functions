@@ -10,6 +10,11 @@ Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azu
 | HTTP trigger | AZfuncHTTPtrig | Basic HTTP function. This is the one you set up first. | working |
 | Azure Event Hub trigger | AZfuncEHtrigger | EventHub trigger (because I couldn't find a tutorial for it in Python) | started |
 
+## You need to add:
+* `local.settings.json` - [which you can get here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local#local-settings-file)
+* `function.json` - for each app, there are specific function parameters that are omited from the code here. You'll need to create that file. 
+
+
 
 #### Project Structure
 The main project folder (<project_root>) can contain the following files:

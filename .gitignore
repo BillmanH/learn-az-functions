@@ -1,3 +1,9 @@
+# Keys and other sensitive things
+AZfuncEHtrigger/function.json
+*key.yaml
+
+
+# Defaults from az func tools
 bin
 obj
 csx
@@ -41,3 +47,5 @@ venv.bak/
 __pycache__/
 *.py[cod]
 *$py.class
+
+

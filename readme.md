@@ -8,7 +8,7 @@ Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azu
 | Name | Folder | Description | State |
 |---|---|---|---|
 | HTTP trigger | AZfuncHTTPtrig | Basic HTTP function. This is the one you set up first. | working |
-| Azure Event Hub trigger | AZfuncEHtrigger | EventHub trigger (because I couldn't find a tutorial for it in Python) | started |
+| Azure Event Hub trigger | AZfuncEHtrigger | EventHub trigger | started |
 
 ## You need to add:
 * `local.settings.json` - [which you can get here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local#local-settings-file)

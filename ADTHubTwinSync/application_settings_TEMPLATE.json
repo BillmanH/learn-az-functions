@@ -1,0 +1,12 @@
+[
+    {
+      "name": "DEVICE_ID",
+      "slotSetting": false,
+      "value": "dtdlID"
+    },
+    {
+      "name": "ADT_URL",
+      "slotSetting": false,
+      "value": "adt-name-here.api.rego.digitaltwins.azure.net"
+    }
+]

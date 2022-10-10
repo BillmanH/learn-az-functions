@@ -3,6 +3,9 @@ AZfuncEHtrigger/function.json
 *key.yaml
 application_settings.json
 
+# Azurite components
+*__azurite_db_*
+
 
 # Defaults from az func tools
 bin

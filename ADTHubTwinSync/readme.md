@@ -10,3 +10,9 @@ Using Environment Variables:
 | DEVICE_ID | The filed in the input message that is to be used as the device ID | 
 | ADT_URL | URL of the ADT instance that will be updated, for connection purposes |
 
+
+## Syncing up your Az-functions instance:
+To automatically get your az function instance.
+```
+func azure functionapp fetch-app-settings <yourAZfunction>
+```

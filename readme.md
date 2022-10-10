@@ -15,6 +15,12 @@ Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azu
 * `function.json` - for each app, there are specific function parameters that are omited from the code here. You'll need to create that file. 
 * to build an environment you can use the `requirements.txt`. That has everything for the trigger-simulators as well as the functions. 
 
+```
+az dt role-assignment create --dt-name <your-Azure-Digital-Twins-instance> --assignee "<principal-ID>" --role "Azure Digital Twins Data Owner"
+```
+
+
 ### Running locally
 * run `func init` to create the extra json files that you will need, as well as starting the project
 * `func start` to start the local functions repo
+

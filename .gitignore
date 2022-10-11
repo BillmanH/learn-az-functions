@@ -54,3 +54,4 @@ __pycache__/
 
 # extras
 ADTHubTwinSync/IoTHubtoTwins.cs
+__blobstorage__/*

@@ -3,4 +3,6 @@
 
 azure-functions
 azure-eventhub
-pyyaml
+pyyaml 
+azure-digitaltwins-core
+azure-identity

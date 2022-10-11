@@ -12,12 +12,16 @@ def get_credential():
     # you will get this from the ADT resource at portal.azure.com
     credential = DefaultAzureCredential()
     serviceClient = DigitalTwinsClient(os.getenv("AZURE_ADT_URL"), credential)
+    return serviceClient
 
-    
+
 def main(req: func.HttpRequest) -> func.HttpResponse:
+    client = get_credential()
+
     logging.info('Python HTTP trigger function processed a request.')
 
-    name = req.params.get('name')
+    deviceID = req.params.get('name')
+    
     if not name:
         try:
             req_body = req.get_json()

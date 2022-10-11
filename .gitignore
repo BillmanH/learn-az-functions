@@ -1,13 +1,3 @@
-# Keys and other sensitive things
-AZfuncEHtrigger/function.json
-*key.yaml
-application_settings.json
-
-# Azurite components
-*__azurite_db_*
-
-
-# Defaults from az func tools
 bin
 obj
 csx
@@ -51,6 +41,3 @@ venv.bak/
 __pycache__/
 *.py[cod]
 *$py.class
-
-# extras
-ADTHubTwinSync/IoTHubtoTwins.cs

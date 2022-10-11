@@ -1,6 +1,6 @@
-# I'm building an environment using anaconda, but this is the list
-# AZ requires a requirements.txt file
+# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
 
 azure-functions
-azure-eventhub
-pyyaml
+
+azure-identity==1.5.0
+azure-digitaltwins-core==1.1.0

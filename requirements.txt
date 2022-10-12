@@ -6,3 +6,4 @@ azure-eventhub
 pyyaml 
 azure-digitaltwins-core
 azure-identity
+pyOpenSSL

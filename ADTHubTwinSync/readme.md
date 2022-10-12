@@ -16,3 +16,13 @@ To automatically get your az function instance.
 ```
 func azure functionapp fetch-app-settings <yourAZfunction>
 ```
+
+### Building your local .venv
+
+Best to delete and re-create the packages if you make changes. 
+```
+python -m venv .venv
+.venv\scripts\activate
+pip install -r requirements.txt
+```
+

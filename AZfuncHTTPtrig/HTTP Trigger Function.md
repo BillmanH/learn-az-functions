@@ -1,5 +1,3 @@
-# The HTTP Trigger
+# Get item from Azure Digital Twin
 
-This is just the Hello world version from the docs. 
-
-Just using this to make sure I understand the framework. 
+Given a device id, will pull the metadta from the twin. 

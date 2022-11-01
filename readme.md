@@ -7,8 +7,8 @@ Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azu
 # Functions listed
 | Name | Folder | Description | State |
 |---|---|---|---|
-| HTTP trigger | AZfuncHTTPtrig | Basic HTTP function. This is the one you set up first. | working |
-| Azure Event Hub trigger | AZfuncEHtrigger | EventHub trigger | started |
+| Digital Twin HTTP Trigger | AZfuncHTTPtrig | Given an id, fetches remaining twin data from ADT | working |
+| Azure Event Hub trigger | AZfuncEHtrigger | Given a eventhub message, patches a tiwn in ADT | started |
 
 ## You need to add:
 * `local.settings.json` - [which you can get here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local#local-settings-file), but it's also generated when you run `func init`.

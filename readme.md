@@ -24,3 +24,11 @@ az dt role-assignment create --dt-name <your-Azure-Digital-Twins-instance> --ass
 * run `func init` to create the extra json files that you will need, as well as starting the project
 * `func start` to start the local functions repo
 
+To create your .venv (required to run the function locally):
+```
+python -m venv .venv
+.venv\scripts\activate
+pip install -r requirements.txt
+```
+
+`az account set --subscription {your subscription}`  to set the subscription may not be needed. 

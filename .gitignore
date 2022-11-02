@@ -55,4 +55,7 @@ __pycache__/
 # extras
 ADTHubTwinSync/IoTHubtoTwins.cs
 __blobstorage__/*
-ADTHubTwinSync/function.json
+
+# example requests just kept as placeholders
+ADTHubTwinSync/example_request.json
+EHpatchADT/example_request.json

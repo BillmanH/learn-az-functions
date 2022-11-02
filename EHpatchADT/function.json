@@ -6,7 +6,7 @@
       "name": "event",
       "direction": "in",
       "eventHubName": "homeeventhub",
-      "connection": "AzureEventHubConnectionString",
+      "connection": "receiverConnectionString",
       "cardinality": "many",
       "consumerGroup": "$Default"
     }

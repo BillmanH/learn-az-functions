@@ -3,7 +3,9 @@
 
 azure-functions
 azure-eventhub
-pyyaml 
 azure-digitaltwins-core
 azure-identity
+azure-eventhub-checkpointstoreblob-aio
+
+pyyaml 
 pyOpenSSL

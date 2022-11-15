@@ -1,0 +1,13 @@
+{
+    "applicationproperties": {
+        "sender": "me",
+        "recievers": "",
+        "messageTypeVersion": "application/json"
+    },
+    "payload": {
+        "dtdlid": "1234",
+        "timestamp": "2022-11-15T03:50:43+0000",
+        "property": "valve",
+        "value": 3
+    }
+}

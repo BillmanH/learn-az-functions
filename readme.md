@@ -1,5 +1,7 @@
 # Getting Started with Azure Function (100% Python)
 
+# NOTE: this repository is really old. I'm archiving it until I have bandwidth to update. In the meantime, you can see working az functions in my `exoplanets` repo. 
+
 Adding templates here so I can spin up AZ functions quickly. 
 
 Following the tutorial from [the MSFT docs](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=azure-cli%2Cbash%2Cbrowser) Last updated: March 8th 2021
